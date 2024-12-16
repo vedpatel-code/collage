@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>BBIT</title>
+</head>
+<body>
+
+    <section class="sub-header">
+        
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-window-close' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="content.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+        <h1><span id="color">O</span>ur Courses</h1>
+    </section>
+
+    <!-- course -->
+
+    <section class="course">
+        <h1><span id="color">C</span>ourse we Offer <span id="color">(</span> GIA <span id="color">)</span></h1>
+        <p><span id="color">E</span>nquiry Con. No. <br> 9104337240 <br> (GIA)
+        </p>
+        
+        <div class="row">
+            <div class="course-col">
+                <h3 id="space">Diploma in Civil Engineering</h3>
+            </div>
+            <div class="course-col">
+                <h3>Diploma in  Mechanical Engineering</h3>
+            </div>
+            <div class="course-col">
+                <h3>Diploma in Electrical Engineering</h3>
+            </div>
+            <div class="course-col">
+                <h3>Diploma in Electronics & Communication Engineering</h3>
+            </div>
+            <div class="course-col">
+                <h3>Diploma in  Computer Engineering</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="course">
+        <h1><span id="color">C</span>ourse we Offer <span id="color">(</span> SFI <span id="color">)</span></h1>
+        <p><span id="color">E</span>nquiry Con. No. <br> 9925268864 <br> (SFI)
+        </p>
+        
+        <div class="row">
+            <div class="course-col">
+                <h3 id="space">Diploma in Information Technology (SF)</h3>
+            </div>
+            <div class="course-col">
+                <h3>Diploma in Electronic & Communication Engineering (SF)</h3>
+            </div>
+            <div class="course-col">
+                <h3>Diploma in Computer Engineering (SF)</h3>
+            </div>
+            <div class="course-col">
+                <h3>Diploma in  Civil Engineering (SF)</h3>
+            </div>
+            <div class="course-col">
+                <h3>Diploma in   Electrical Engineering (SF)</h3>
+            </div>
+            <div class="course-col">
+                <h3>Diploma in    Mechanical Engineering (SF)</h3>
+            </div>
+        </div>
+    </section>
+    
+    <!-- facilities -->
+
+    <section class="facilities">
+        <h1><span id="color">O</span>ur Facilities</h1>
+        <p>A college facility is more than just brick and mortar; it's a canvas where knowledge blooms, creativity thrives, and every space becomes a stage for future dreams.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="eduford_img/library.png">
+                <h3>World Class Library</h3>
+                <p>The college library is not just a room filled with books; it is a treasure trove of knowledge, where every page opens the door to new worlds and every corner whispers the promise of discovery.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="eduford_img/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>The college playground is where the spirit of competition meets camaraderie, where every game played builds not just strength, but character, and every victory, big or small, echoes with the joy of teamwork.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="eduford_img/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>The college library is not just a room filled with books; it is a treasure trove of knowledge, where every page opens the door to new worlds and every corner whispers the promise of discovery.</p>
+            </div>
+        </div>
+    </section>
+   <!-- footer -->
+   <section class="footer">
+    <h2><span id="color">A</span>bout Us</h2>
+    <p> <i class='bx bx-map-pin' id="icons"></i> Bhailalbhai & Bhikhabhai Institute of Technology, Nr. Iscon Temple, Opp. Shastri Medan, Vallabh Vidya Nagar, Anand, Gujarat, India. 388120 <br><br>
+        <i class='bx bx-phone-call' id="icons"></i> 02692-237240 <br><br>
+        <i class='bx bx-envelope' id="icons"></i> principal@bbit.ac.in</p>
+    <div class="icons">
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-twitter'></i>
+        <i class='bx bxl-instagram'></i>
+        <i class='bx bxl-linkedin'></i>
+    </div>
+    <p>Made My <i id="heart" class='bx bx-donate-heart'></i> Programer Ved</p>
+</section>
+
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

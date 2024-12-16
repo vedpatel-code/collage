@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="image/logo.png">
+    <title>BBIT</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="sub-header">
+        
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-window-close' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="content.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+        <h1><span id="color">A</span>bout Us</h1>
+    </section>
+
+    
+    <section class="testimonials">
+        <h1><span id="color" id="c">W</span>hat Our Students Say</h1>
+        <p>Our institute equips students with the skills and knowledge necessary to succeed, resulting in a brighter future after graduation.</p>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="http://www.bbit.ac.in/images/st-1.jpg">
+                <div>
+                    <p>Beautiful environment, Excellent Faculties and Best collage</p>
+                    <h3><span id="color">H</span>aradik Patel</h3>
+                    <span id="blue">Computer Engineering</span>
+                </div>
+            </div>
+
+            <div class="testimonials-col">
+                <img src="http://www.bbit.ac.in/images/st-2.jpg">
+                <div>
+                    <p>You're a fantastic listener. It's clear to me that you're very open to learning and hearing methods you can use to improve your studies. You follow directions perfectly, and you're well on your way to improvement.</p>
+                    <h3><span id="color">K</span>aushal Mistry</h3>
+                    <span id="blue">Computer Engineering</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="testimonials">
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="http://www.bbit.ac.in/images/st-3.jpg">
+                <div>
+                    <p>You're an innovative and creative person. It's very clear to me that you enjoy solving problems in different ways and using your creativity to develop new ideas. It's great seeing you use your creativity and innovation to perform well in this college.</p>
+                    <h3><span id="color">L</span>ata Bhavnanai</h3>
+                    <span id="blue">Computer Engineering</span>
+                </div>
+            </div>
+
+            <div class="testimonials-col">
+                <img src="http://www.bbit.ac.in/images/st-5.jpg">
+                <div>
+                    <p>Our institute provides us with the resources and support we need to succeed and grow as individuals and professionals.</p>
+                    <h3><span id="color">M</span>aitri Kansariya</h3>
+                    <span id="blue">Computer Engineering</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="gia">
+            <div id="gia">
+                <a href="gia.html">GIA</a>
+            </div>
+            <DIV id="sfi">
+                <a href="sfi.html">SFI</a>
+            </DIV>
+        </section> -->
+    
+   <!-- footer -->
+   <section class="footer">
+    <h2><span id="color">A</span>bout Us</h2>
+    <p> <i class='bx bx-map-pin' id="icons"></i> Bhailalbhai & Bhikhabhai Institute of Technology, Nr. Iscon Temple, Opp. Shastri Medan, Vallabh Vidya Nagar, Anand, Gujarat, India. 388120 <br><br>
+        <i class='bx bx-phone-call' id="icons"></i> 02692-237240 <br><br>
+        <i class='bx bx-envelope' id="icons"></i> principal@bbit.ac.in</p>
+    <div class="icons">
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-twitter'></i>
+        <i class='bx bxl-instagram'></i>
+        <i class='bx bxl-linkedin'></i>
+    </div>
+    <p>Made My <i id="heart" class='bx bx-donate-heart'></i> Programer Ved</p>
+</section>
+
+    
+        <!-- JavaScript for Toggle Menu -->
+    
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+    
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+    
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    
+    </body>
+    </html>

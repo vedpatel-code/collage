@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="x-icon" href="image/logo.png">
+    <title>BBIT</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="sub-header">
+        
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-window-close' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+        <h1><span id="color">C</span>ontact Us</h1>
+    </section>
+
+    <!-- <section class="a">
+        <div id="d">
+            <h2>Address</h2>
+            <p>Bhailalbhai & Bhikhabhai Institute of <br> Technology, Nr. Iscon Temple, Opp. <br> Shastri Medan, Vallabh Vidya Nagar, <br> Anand, Gujarat, India. 388120</p>
+        </div>
+
+        <div id="i">
+            <h2>Contact Number</h2>
+            <p>02692-237240</p>
+        </div>
+
+        <div id="v">
+            <h2>Email Address</h2>
+            <p>principal@bbit.ac.in</p>
+        </div>
+
+        <div id="vid">
+            <h2>Website</h2>
+            <p>bbit.ac.in</p>
+        </div>
+    </section> -->
+
+    
+   
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.7648210313077!2d72.92159407475646!3d22.550480933781643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4f9a85f7eaff%3A0x857cc67ad0a50eff!2sBBIT%20COLLEGE%20INFORMATION%20TECHNOLOGY%20DEPARTMENT(SFI)!5e0!3m2!1sen!2sin!4v1732355053742!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <div class="what">
+        <a href="https://api.whatsapp.com/send/?phone=%2B919099063204&text&type=phone_number&app_absent=0" target="_main">Contact us on Whatsapp</a>
+    </div>
+
+   
+
+    
+   <!-- footer -->
+   <section class="footer">
+    <h2><span id="color">A</span>bout Us</h2>
+    <p> <i class='bx bx-map-pin' id="icons"></i> Bhailalbhai & Bhikhabhai Institute of Technology, Nr. Iscon Temple, Opp. Shastri Medan, Vallabh Vidya Nagar, Anand, Gujarat, India. 388120 <br><br>
+        <i class='bx bx-phone-call' id="icons"></i> 02692-237240 <br><br>
+        <i class='bx bx-envelope' id="icons"></i> principal@bbit.ac.in</p>
+    <div class="icons">
+        <i class='bx bxl-facebook'></i>
+        <i class='bx bxl-twitter'></i>
+        <i class='bx bxl-instagram'></i>
+        <i class='bx bxl-linkedin'></i>
+    </div>
+    <p>Made My <i id="heart" class='bx bx-donate-heart'></i> Programer Ved</p>
+</section>
+
+    
+        <!-- JavaScript for Toggle Menu -->
+    
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+    
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+    
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    
+    </body>
+    </html>

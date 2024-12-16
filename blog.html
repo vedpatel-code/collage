@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>BBIT</title>
+</head>
+<body>
+
+    <section class="sub-header">
+        
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class='bx bx-window-close' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="content.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+        <h1><span id="color">O</span>ur Certificate & Programs For 2024</h1>
+    </section>
+
+    <!-- blog page contect -->
+
+    <section class="blog-container">
+        <div class="row">
+            <div class="blog-left">
+                <img src="eduford_img/certificate.jpg" alt="">
+                <h2>Our Certificate & Programs For 2024</h2> <br>
+                <h3>BBIT <span id="color">(</span>Gujarat Technological University <span id="color">)</span> Established Since 1958</h3>
+                <p>Bhailalbhai & Bhikhabhai Institute of Technology (Polytechnic) is a grant-in-aid and self Financed Institute Polytechnic managed by Charutar Vidya Mandal, Vallabh Vidyanagar. The institute was established in August 1958 with the intake capacity of 60 each in conventional programmes like Civil, Mechanical & Electrical Engg.Later on institute has started new Diploma Programme in Electronics & Communication in 1985 with 60 intakes and Diploma in Computer Engg. in 1986 with 60 intake. The institute has also started two programmes under Self Finance pattern; in the year 2001, it has started Diploma in Information Technology with 60 intake and in 2003, Diploma in Electronics & Communication with 60 intake. Thus to-day institute has total 685 intake capacity including 180 in Distance Learning Mode in Civil, Mechanical and Electrical – 60 in each.The institute has its vision, mission and quality statement. Its all regular programmes have been accredited by National Board of Accreditation (NBA) New Delhi.</p>
+                <br> 
+
+                <h3>BBIT <span id="color">(</span> Gujarat Technological University <span id="color">)</span></h3>
+                <p>We the teaching fraternity, at Bhailalbhai & Bhikhabhai Institute of Technology shall mould students to meet the changing needs of society by providing them with inputs and hands on experiences in relevant technology.We shall provide an environment conducive to the persuit of excellence in technology so as to enable our students bringout their latent potential capabilities, transforming them into responsive, compentative and innovative technocrats.We shall to strive to update and use our methodological inputs to enable the teachers to impart knowledge and skill to taught. We shall be fair and honest in our approach to the task in hands.</p>
+            </div>
+            <div class="blog-right"></div>
+        </div>
+   
+    </section>
+<!-- footer -->
+    <section class="footer">
+        <h2><span id="color">A</span>bout Us</h2>
+        <p> <i class='bx bx-map-pin' id="icons"></i> Bhailalbhai & Bhikhabhai Institute of Technology, Nr. Iscon Temple, Opp. Shastri Medan, Vallabh Vidya Nagar, Anand, Gujarat, India. 388120 <br><br>
+            <i class='bx bx-phone-call' id="icons"></i> 02692-237240 <br><br>
+            <i class='bx bx-envelope' id="icons"></i> principal@bbit.ac.in</p>
+        <div class="icons">
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-linkedin'></i>
+        </div>
+        <p>Made My <i id="heart" class='bx bx-donate-heart'></i> Programer Ved</p>
+    </section>
+
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
